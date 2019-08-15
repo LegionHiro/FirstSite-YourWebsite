@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Your Website</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Interactive website adapts to your likes">
+  <meta name="keywords" content="Interests, Cute, Scary, Youtube, Music, Gaming, Write, Website, Stories, Poems, Videos, Images">
+  <meta name="author" content="Creator Z">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<link link rel="stylesheet" type="text/css" href="layout3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Your Website</h1>
+
+</div>
+
+<div class="topnav" id="myTopnav">
+  <a href="#">Home</a>
+  <a href="#">Music</a>
+  <a href="#">Games</a>
+  <a href="#">Youtube</a>
+  <a href="#">Interests</a>
+  <a href="#">Cute</a>
+  <a href="#">Scary</a>
+  <a href="#">Write this way</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+	</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Music</h2>
+    <p>Do you love Music? Why not check out the music page, where you can check out information, news and listen to samples of music. Have a favorite genre? <p>
+	<p>No problem we have a whole list of potential genres of music.</p>
+  </div>
+  <div class="column middle">
+    <h2>Welcome!</h2>
+    <p>Welcome to Your Website, This website is all about you and your interests. We Have various pages of things you might enjoy. All you need to do is explore what you like.</p>
+    <p>At the top of the screen is a navigation bar, this wil take you to the pages we think users might be interested in. There is different genres on each page, pick the one or few you like!</p>
+	<p>You can create posts and add whatever you like, as long as it is suitable to the webpage. Enjoy and have Fun.</p>
+	
+  </div>
+  <div class="column side">
+    <h2>Games</h2>
+    <p>Do you love games? Why not check out the game page, Where you can watch gameplay of your favorite games, learn new information, trophies, and wiki of games</p>
+	<p>Pick your favorite genre of games or look up a specific game you are looking for</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Site Created by Creator Z</p>
+</div>
+  
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+
+</html>

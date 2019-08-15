@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Your Website</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Interactive website adapts to your likes">
+  <meta name="keywords" content="Interests, Cute, Scary, Youtube, Music, Gaming, Write, Website, Stories, Poems, Videos, Images">
+  <meta name="author" content="Creator Z">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<link rel="stylesheet" type="text/css" href="layout3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Your Website</h1>
+
+</div>
+
+<div class="topnav" id="myTopnav">
+  <a href="Index.html">Home</a>
+  <a href="Music.html">Music</a>
+  <a href="Games.html">Games</a>
+  <a href="Youtube.html">Youtube</a>
+  <a href="Interests.html">Interests</a>
+  <a href="Cute.html">Cute</a>
+  <a href="Scary.html">Scary</a>
+  <a href="Write_this_way.html">Write this way</a>
+  <a href="Media.html">Media</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+	</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <a href="Cute.html"><h2 style="color:#FF69B4;">Cute</h2></a>
+    <p>Do you love cute animals, babies, and all things cute and cuddly?<p>
+	<p>Join the cutest side of life, look at cute pictures and videos or read the most adorable stories</p>
+	<img src="baby.jpg" alt="Baby" style="width:300px;height:400px;">
+  </div>
+  <div class="column middle">
+    <h2>Interests</h2>
+    <p>This is the interest page,here you have two side to choose from Cute or Scary.</p>
+	<p>Press the link and it will take you straight to the page you chose.</p>
+    <p>At the top of the screen is a navigation bar, this will take you to the pages we think users might be interested in. There is different genres on each page, pick the one or few you like!</p>
+	<p>Enjoy and have Fun.</p>
+	<img src="interests.jpg" alt="Interests" style="width:600px;height:400px;">
+	
+  </div>
+  <div class="column side">
+     <a href="Scary.html"><h2 style="color:black;">Scary</h2></a>
+    <p>Do you love Scary Movies, stories and ghosts?</p>
+	<p>Join the scarier side of life, find information on some of the best horror movies, read stories, or hear about some famous ghosts</p>
+	<img src="door.jpg" alt="Door" style="width:400px;height:400px;">
+  </div>
+</div>
+
+<div class="footer">
+  <p>Site Created by Creator Z</p>
+</div>
+  
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+
+</html>

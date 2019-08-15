@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Your Website</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Interactive website adapts to your likes">
+  <meta name="keywords" content="Interests, Cute, Scary, Youtube, Music, Gaming, Write, Website, Stories, Poems, Videos, Images">
+  <meta name="author" content="Creator Z">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<link rel="stylesheet" type="text/css" href="layout3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Your Website</h1>
+
+</div>
+
+<div class="topnav" id="myTopnav">
+  <a href="Index.html">Home</a>
+  <a href="Music.html">Music</a>
+  <a href="Games.html">Games</a>
+  <a href="Youtube.html">Youtube</a>
+  <a href="Interests.html">Interests</a>
+  <a href="Cute.html">Cute</a>
+  <a href="Scary.html">Scary</a>
+  <a href="Write_this_way.html">Write this way</a>
+  <a href="Media.html">Media</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+	</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2 style="color:#FF69B4;">Animals</h2>
+	<img src="cat.jpg" alt="cat" style="width:200px;height:200px;">
+	<img src="dog.jpg" alt="dog" style="width:200px;height:200px;">
+	<img src="hedgehog.jpg" alt="hedgehog" style="width:200px;height:200px;">
+	   <video width="200" height="200" controls>
+  <source src="cute.mp4" type="video/mp4">
+  <source src="cute.ogg" type="video/ogg">
+</video>
+  </div>
+  <div class="column middle">
+    <h2 style="color:#FF69B4;">Cute</h2>
+    <p>This is the cute page, here you can see different cute pictures of animals or babies and videos</p>
+    <p>At the top of the screen is a navigation bar, this will take you to the pages we think users might be interested in. There is different genres on each page, pick the one or few you like!</p>
+	<p>Enjoy and have Fun.</p>
+	
+	<h2 style="color:#FF69B4;">The Cutest pet and baby names</h2>
+	
+	<h4>Baby Names</h4>
+	<ul>
+	<li>Daisy</li>
+    <li>Connor</li>
+    <li>Belle</li>
+    <li>Elijah</li>
+    <li>Scarlett</li>
+    <li>Hugo</li>
+    <li>Eva</li>
+	<li>Oscar</li>
+	<li>Lulu</li>
+	<li>Dexter</li>
+	</ul>
+	<ul>
+	<h4>Pet Names</h4>
+	<li>Tiger</li>
+	<li>Oreo</li>
+	<li>Biscuit</li>
+	<li>Candy</li>
+	<li>Simba</li>
+	<li>Nala</li>
+	<li>Peanut</li>
+	<li>Princess</li>
+	<li>Prince</li>
+	<li>Amber</li>
+	</ul>
+	
+	
+	
+  </div>
+  <div class="column side">
+    <h2 style="color:#FF69B4;">Babies</h2>
+	<img src="baby.jpg" alt="baby" style="width:200px;height:200px;">
+	<img src="twins.jpg" alt="two babies" style="width:200px;height:200px;">
+	<img src="feet.jpg" alt="babies feet" style="width:200px;height:200px;">
+	   <video width="200" height="200" controls>
+  <source src="nursery.mp4" type="video/mp4">
+  <source src="nursery.ogg" type="video/ogg">
+</video>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Site Created by Creator Z</p>
+</div>
+  
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+
+</html>
