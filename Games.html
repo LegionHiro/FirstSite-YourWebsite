@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Your Website</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Interactive website adapts to your likes">
+  <meta name="keywords" content="Interests, Cute, Scary, Youtube, Music, Gaming, Write, Website, Stories, Poems, Videos, Images">
+  <meta name="author" content="Creator Z">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<link rel="stylesheet" type="text/css" href="layout3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Your Website</h1>
+
+</div>
+
+<div class="topnav" id="myTopnav">
+  <a href="Index.html">Home</a>
+  <a href="Music.html">Music</a>
+  <a href="Games.html">Games</a>
+  <a href="Youtube.html">Youtube</a>
+  <a href="Interests.html">Interests</a>
+  <a href="Cute.html">Cute</a>
+  <a href="Scary.html">Scary</a>
+  <a href="Write_this_way.html">Write this way</a>
+  <a href="Media.html">Media</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+	</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>VR</h2>
+    <video width="440" height="440" controls>
+  <source src="vr.mp4" type="video/mp4">
+  <source src="vr.ogg" type="video/ogg">
+</video>
+  </div>
+  <div class="column middle">
+    <h2>Games</h2>
+    <p>This is the game page, here you can learn information about your favorite games, how to earn trophies, learn new techniques and to explore different genres of games!</p>
+    <p>Have a go and use the side navigation bar, it's full of great choices to choose from.</p>
+	<p>Enjoy and have Fun!</p>
+	<img src="videogame.jpg" alt="videogame" style="width:400px;height:400px;">
+	
+  </div>
+  <div class="column side">
+      <h2>Genres</h2>
+  <ul>
+<li><a href="Board_Games.html">Board Games</a></li>
+<img src="boardgames.jpg" alt="Board Games" style="width:100px;height:100px">
+  <li><a href="Retro_Games.html">Retro Games</a></li>
+<img src="retro.png" alt="Retro Games" style="width:100px;height:100px">
+  <li><a href="Sports_Games.html">Sports Games</a></li>
+<img src="sports.jpg" alt="Sports" style="width:100px;height:100px">
+  <li><a href="Shooter_Games.html">Shooter Games</a></li>
+  <img src="shooters.jpg" alt="Shooter Games" style="width:100px;height:100px">
+  <li><a href="Horror_Games.html">Horror Games</a></li>
+<img src="horror.jpg" alt="Horror Games" style="width:100px;height:100px">
+  <li><a href="VR_Games.html">VR Games</a></li>
+<img src="vr.jpg" alt="VR" style="width:100px;height:100px">
+  <li><a href="OpenWorld_Games.html">Openworld Games</a></li>
+<img src="Openworld.jpg" alt="board games" style="width:100px;height:100px">
+ <li><a href="Racing.html">Racing</a></li>
+<img src="racing.jpg" alt="Racing" style="width:100px;height:100px">
+  </div>
+</div>
+
+<div class="footer">
+  <p>Site Created by Creator Z</p>
+</div>
+  
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+
+</html>
