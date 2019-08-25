@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Your Website</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Interactive website adapts to your likes">
+  <meta name="keywords" content="Interests, Cute, Scary, Youtube, Music, Gaming, Write, Website, Stories, Poems, Videos, Images">
+  <meta name="author" content="Creator Z">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<link rel="stylesheet" type="text/css" href="layout3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Your Website</h1>
+
+</div>
+
+<div class="topnav" id="myTopnav">
+  <a href="Index.html">Home</a>
+  <a href="Music.html">Music</a>
+  <a href="Games.html">Games</a>
+  <a href="Youtube.html">Youtube</a>
+  <a href="Interests.html">Interests</a>
+  <a href="Cute.html">Cute</a>
+  <a href="Scary.html">Scary</a>
+  <a href="Write_this_way.html">Write this way</a>
+  <a href="Media.html">Media</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+	</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    
+  </div>
+  <div class="column middle">
+    <h2>VR Games</h2>
+  <div class="videoWrapper">
+  <iframe width="1600" height="600" src="https://www.youtube.com/embed/QKm-SOOMC4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+  </div>
+  <div class="column side">
+     
+  </div>
+</div>
+
+<div class="footer">
+  <p>Site Created by Creator Z</p>
+</div>
+  
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+
+</html>
